@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100%;
+    border-right: 7px solid rgb(188, 186, 186);
+}
+
+nav li{
+    border-top: 5px solid rgb(188, 186, 186);
+    font-size: 18px;
+    list-style: none;
+}
+
+nav a{
+    display: block;
+    padding: 22px;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: helvetica;
+    cursor: pointer;
+}
+
+#nav-header{
+    font-size: 27px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: rgb(209, 131, 71);
+    padding: 20px 0;
+}
+
+main{
+    margin-left: 340px;
+    padding: 20px;
+    font-family: helvetica;
+    max-width: 100%;
+    background-color: antiquewhite;
+}
+
+section{
+    display: block;
+    color: rgb(75, 75, 75);
+}
+
+section header{
+    font-size: 27px;
+    font-weight: bold;
+    padding: 20px 0 15px 0;
+    color: black;
+}
+
+p, section ol{
+   margin-left: 20px;
+   line-height: 20px;
+}
+
+section ol{
+    padding-left: 35px;
+    line-height: 25px;
+}
+
+code{
+    display: block;
+    text-align: left;
+    max-width: 50%;
+    color: black;
+    border: solid rgba(62, 62, 62, 0.279);
+    margin-left: 40px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    max-width: 40%;
+    margin: 20px auto;
+}
