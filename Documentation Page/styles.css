@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 815px) {
-    
-}
-
 body{
     margin-right: 20px;
     margin-top: 20px;
@@ -20,7 +16,6 @@ nav{
     width: 320px;
     height: 100%;
     border-right: 7px solid rgb(188, 186, 186);
-    /* font-family: impact; */
 }
 
 nav li{
@@ -78,13 +73,20 @@ section ol{
     line-height: 25px;
 }
 
+.code{
+    width: 50%;
+    overflow: auto;
+    border: solid rgba(62, 62, 62, 0.279);
+    margin: 1em 0;
+}
+
 code{
     display: block;
     text-align: left;
-    max-width: 50%;
+    /* max-width: 100%; */
     color: black;
-    border: solid rgba(62, 62, 62, 0.279);
-    margin-left: 40px;
+    margin-left: -100px;
+    margin-top: 15px;
 }
 
 img{
@@ -92,4 +94,44 @@ img{
     width: 100%;
     max-width: 40%;
     margin: 20px auto;
+}
+
+@media screen and (max-width: 815px) {
+    nav{
+        width: 100%;
+        position: static;
+        top: 0;
+        height: 49.7%;
+        border-left: 7px solid rgb(188, 186, 186);
+    }
+
+    #last{
+        border-bottom: 5px solid rgb(188, 186, 186);
+    }
+
+    nav li{
+        margin-bottom: 5px
+    }
+
+    body{
+        margin: 0 20px 20px 20px;
+    }
+
+    main{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .code{
+        width: 100%;
+    }
+
+    code{
+        margin-left: -150px;
+    }
+
+    img{
+      max-width: 70%; 
+    }
+
 }
