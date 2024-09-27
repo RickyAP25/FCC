@@ -46,6 +46,15 @@
     text-decoration: none;
     color: black;
   }
+
+  a:hover{
+    color: orange;
+  }
+
+  a:hover .product-cat{
+    color: grey;
+    font-weight: bold;
+  }
   
   #main-img{
     width: 100%;
@@ -201,5 +210,7 @@
     border: none;
   }
 
-
+  #submit:hover{
+    background-color: orange;
+  }
     
