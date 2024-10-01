@@ -99,6 +99,10 @@ p{
     border-radius: 5px;
 }
 
+.project-tile a:hover span{
+    color: #706C61;
+}
+
 .project-tile img{
     width: 100%;
     height: 320px;
