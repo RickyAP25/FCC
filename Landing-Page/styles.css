@@ -80,6 +80,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 0 20px;
   }
 
   .container{
@@ -147,6 +148,7 @@
 
   #reviews{
     margin: 0 auto 5%;
+    padding: 0 20px;
   }
 
   #review-title{
@@ -186,6 +188,7 @@
     align-items: center;
     text-align: center;
     margin-top: 15px;
+    padding: 0 20px;
     /* width: 100%; */
   }
 
@@ -244,7 +247,47 @@
 
   @media (max-width: 650px){
     #products a{
-      max-width: 200px; 
-      
+      max-width: 240px;
+    }
+  }
+
+  @media (max-width: 615px){
+    header{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* flex-wrap: wrap; */
+      border: 1px solid;
+      height: auto;
+    }
+    
+    #header-img{
+      margin: 0 auto;
+      max-width: 230px;
+      max-height: 90px;
+    }
+
+    nav{
+      padding-bottom: 30px;
+    }
+
+    nav ul{
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 370px) {
+    nav ul{
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    footer ul{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
