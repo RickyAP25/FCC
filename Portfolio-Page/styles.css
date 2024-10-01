@@ -36,6 +36,10 @@ nav ul li a{
     font-weight: bold;
 }
 
+nav ul li a:hover{
+    color: #706C61;
+}
+
 #welcome-section{
     display: flex;
     flex-direction: column;
@@ -59,8 +63,7 @@ p{
 
 #projects{
     background-color: #2A2B2A;
-    padding-top: 50px;
-    padding-bottom: 8%;
+    padding: 50px 15px 8% 15px;
 }
 
 #projects h1{
@@ -199,5 +202,12 @@ footer p{
         justify-content: center;
         align-items: center;
         gap: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    #profile-link{
+        flex-direction: column;
+        gap: 20px;
     }
 }
