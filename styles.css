@@ -59,7 +59,20 @@ h1, p{
 
 p{
     color: #706C61
-}   
+}
+
+.fade-in{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 #projects{
     background-color: #2A2B2A;
@@ -172,6 +185,10 @@ p{
     color: #F8F4E3;
     padding: 0;
     padding-left: 5px;
+}
+
+#profile-link a:hover i, #profile-link a:hover span, #profile-link a:hover p{
+    color: #706C61;
 }
 
 footer{
