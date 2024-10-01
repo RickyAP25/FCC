@@ -14,6 +14,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 nav ul{
@@ -55,6 +56,28 @@ h1, p{
     color: white;
     font-size: 50px;
     padding: 10px;
+}
+
+.typewriter{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid;
+    animation: typing 10s steps(12), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret{
+    50%{
+        border-color: transparent;
+    }
 }
 
 p{
@@ -190,6 +213,7 @@ p{
 #profile-link a:hover i, #profile-link a:hover span, #profile-link a:hover p{
     color: #706C61;
 }
+
 
 footer{
     padding: 30px;
